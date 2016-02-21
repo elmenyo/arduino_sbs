@@ -84,7 +84,7 @@ void print_header(EthernetClient &client)
     client.println();
     client.print("<html><head><title>");   
     client.print("GET request example");
-    client.println("</title><body>");
+    client.println("</title></head><body>");
 }
       
 void print_confirmation(String &confirmation_message, EthernetClient &client)
